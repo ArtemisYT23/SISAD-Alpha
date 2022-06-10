@@ -1,0 +1,29 @@
+.titulo-Modal{
+    color: #F68A20;
+}
+
+.Name{
+    Color: #F68A20;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.Selected{
+    width: 100%;
+    padding: 0.3rem;
+    margin: 0.7rem 0 0 0;
+    border: 1px solid #F68A20;
+    color:#F68A20;
+    font-size: 0.9rem;
+}
+
+.Selected:focus{
+    outline:none;
+} 
+
+
+.Options{
+    width: 100%;
+}
+
+

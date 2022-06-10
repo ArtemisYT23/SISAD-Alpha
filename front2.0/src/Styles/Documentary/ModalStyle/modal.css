@@ -1,0 +1,91 @@
+.blag{
+    width: 100%;
+    background: var(--lineColor); 
+    height: 1px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.titulo-modal{
+    color: var(--primaryColor);
+    font-size: 1.4rem;
+    padding: 0 0 0.5rem 0;
+}
+
+.btn-enviar{
+    color: var(--primaryColor);
+    text-decoration: none;
+    outline:none;
+    border: none;
+    font-size: 1.1rem;
+    margin: 0.5rem;
+    background: var(--white);
+}
+
+.btn-cancelar{
+    color:var(--lineColor);
+    text-decoration: none;
+    outline:none;
+    border: none;
+    font-size: 1.1rem;
+    margin: 0.5rem;
+    background: var(--white);
+    cursor: pointer;
+}
+
+.cabin{
+    display: none;
+}
+
+.container-d{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-eliminar{
+    color:var(--primaryColor);
+    text-decoration: none;
+    outline:none;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    border: 1px solid var(--primaryColor);
+    margin: 0.5rem;
+    cursor: pointer;
+    background: none;
+}
+
+.btn-eliminar:hover{
+    border: 2px solid var(--primaryColor);
+}
+
+.btn-cancel{
+    color:var(--lineColor);
+    text-decoration: none;
+    border: 1px solid var(--primaryColor);
+    outline:none;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    margin: 0.5rem;
+    background: none;
+    cursor: pointer;
+}
+
+
+.btn-cancel:hover{
+    color: var(--lineColor);
+    border: 2px solid var(--primaryColor);
+}
+
+
+.NameLabel{
+    color: #878383;
+}
+
+.Selected{
+    text-align: center;
+}
+
+.defaultOption{
+    text-align: center;
+}

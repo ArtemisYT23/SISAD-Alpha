@@ -1,0 +1,23 @@
+.DashIconActive > path {
+  fill: var(--primaryColor);
+}
+
+.DashIconInactive > path {
+    fill: var(--lineColor);
+  }
+
+.DocuIconActive > path {
+    fill:var(--primaryColor);
+}
+
+.DocuIconInactive > path {
+    fill: var(--lineColor);
+}
+
+.ManagIconActive > path {
+    fill: var(--primaryColor);
+}
+
+.ManagInactive > path {
+    fill: var(--lineColor);
+}

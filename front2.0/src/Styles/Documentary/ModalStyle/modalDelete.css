@@ -1,0 +1,77 @@
+.blag{
+    width: 100%;
+    background: #C4C4C4; 
+    height: 1px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.titulo-modal{
+    color:#F68A20;
+    font-size: 1.4rem;
+}
+
+.btn-enviar{
+    color:#F68A20;
+    text-decoration: none;
+    outline:none;
+    border: none;
+    font-size: 1.1rem;
+    margin: 0.5rem;
+    background: white;
+}
+
+.btn-cancelar{
+    color:#C4C4C4;
+    text-decoration: none;
+    outline:none;
+    border: none;
+    font-size: 1.1rem;
+    margin: 0.5rem;
+    background: white;
+    cursor: pointer;
+}
+
+.cabin{
+    display: none;
+}
+
+.container-d{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-eliminar{
+    color:#F68A20;
+    text-decoration: none;
+    outline:none;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    border: 1px solid #F68A20;
+    margin: 0.5rem;
+    cursor: pointer;
+    background: none;
+}
+
+.btn-eliminar:hover{
+    border: 2px solid #f3810e;
+}
+
+.btn-cancel{
+    color:#C4C4C4;
+    text-decoration: none;
+    border: 1px solid #F68A20;
+    outline:none;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    margin: 0.5rem;
+    background: none;
+    cursor: pointer;
+}
+
+
+.btn-cancel:hover{
+    color: #868585;
+    border: 2px solid #f3810e;
+}

@@ -1,0 +1,42 @@
+:root {
+  --navBarMinWidth: 4rem;
+  --iconSize: 1.5rem;
+  --primaryColor: #f68a20;
+  --secondaryColor: #fece64;
+  --lineColor: #c4c4c4;
+  --white: #fffbf8;
+  --black: #404040;
+  --blackforte: #0000;
+  --primaryColorTransparent: #F0A358;
+  --transparent: #F2B06F;
+  --whiteTrans: #ddd;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--white);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#root {
+  position: relative;
+  display: flex;
+}
+
+a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+body::-webkit-scrollbar {
+  
+}
+
+/* body{
+  overflow-x: scroll;
+} */
+
